@@ -1,0 +1,22 @@
+.scale-up-bl {
+	-webkit-animation: scale-up-bl 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: scale-up-bl 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+.social-link {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color:  rgb(77, 80, 230);
+  border-radius: 50%;
+  transition: all 0.3s;
+  font-size: 0.9rem;
+}
+
+.social-link:hover, .social-link:focus {
+  background: #ddd;
+  text-decoration: none;
+  color: rgb(49, 52, 207);
+}
